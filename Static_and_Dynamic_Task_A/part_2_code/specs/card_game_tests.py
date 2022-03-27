@@ -24,4 +24,4 @@ class TestCardGame:
 
     def test_cards_total(self):
         result = self.card_game.cards_total(self.cards)
-        self.assertEqual(18, result)
+        self.assertEqual("You have a total of 18", result)

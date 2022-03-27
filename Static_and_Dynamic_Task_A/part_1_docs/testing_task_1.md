@@ -37,6 +37,6 @@ def cards_total(self, cards): #this function is not indented and is consequently
   for card in cards:
     total += card.value
     return "You have a total of" + total #return statement is inside for loop due to incorrect indentation
-    # total will be an integer, so the string concatenation in the return statement will not work.
+    # total will be an integer, so the string concatenation in the return statement will not work. There should also be a space between "total of" and the number.
   
 ```
